@@ -1,0 +1,67 @@
+
+body {
+    background-color: #f5f6fa;
+    font-family: Arial, sans-serif;
+    color: #25263a;
+}
+
+.navbar {
+    padding: 15px;
+}
+
+.hero {
+    background: linear-gradient(120deg, #332b67, #7064e8);
+    color: white;
+    padding: 70px 20px !important;
+}
+
+.hero h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.task-card {
+    display: block;
+    padding: 25px;
+    background: white;
+    border: 1px solid #e2e3ed;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #5145c7;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.task-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px #00000012;
+}
+
+.form-panel {
+    max-width: 800px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #e2e3ed;
+    box-shadow: 0 5px 20px #00000008;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #7064e8;
+    box-shadow: 0 0 0 0.2rem #7064e833;
+}
+
+.btn-primary {
+    background-color: #6558e8;
+    border-color: #6558e8;
+}
+
+.btn-primary:hover {
+    background-color: #4c40c7;
+    border-color: #4c40c7;
+}
